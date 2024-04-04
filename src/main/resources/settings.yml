@@ -1,0 +1,11 @@
+# Beacon settings
+beacon:
+
+  # Spawn distance of the beacon (relative to the player)
+  beacon-distance: 10
+
+  # Color of the beacon
+  color-material: RED_STAINED_GLASS
+
+  # Show amount of meters to the destination in players Actionbar
+  meter-count: true

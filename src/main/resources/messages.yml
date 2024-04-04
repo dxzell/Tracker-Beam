@@ -1,0 +1,28 @@
+# All plugin-sent messages - Use Color Codes with &_
+messages:
+
+  # All messages that are being sent within the track command
+  track-command:
+
+    # Sent when a player uses the track command incorrectly
+    wrong-track: '&cIncorrect command. Use /track <X> <Z>'
+
+    # Sent when a player doesn't use numbers for X or Z in the track command
+    not-numbers: '&cBoth X and Z have to be numbers. Use /track <X> <Z>'
+
+    # Sent when a player now is successfully tracking a location.
+    # When adjusting that message, use [X] and [Z] as placeholders for the coordinates
+    successfully-tracking: '&aYou are now tracking the location at X: &6[X] &aand Z: &6[Z]'
+
+    # Sent when a player reached the tracked location
+    reached-location: '&aYou have reached your location. The tracking has been stopped.'
+
+
+  # All messages that are being sent within the untrack command
+  untrack-command:
+
+    # Sent after successfully untracking a location
+    successfully-untracked: '&aSuccessfully untracked location.'
+
+    # Sent when player tries to untrack when not currently tracking a location
+    not-tracking: '&cYou are currently not tracking a location.'
